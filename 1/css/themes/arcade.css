@@ -1,0 +1,11 @@
+:root{
+    --color-background: #000000;
+    --color-primary: #00ff00;
+    --color-hover: #08c008;
+    --color-contrast: #109010;
+    --color-link: #80ff80;
+}
+
+*, body, html{
+    font-family: "webpixel bitmap", monospace;
+}
