@@ -1,0 +1,14 @@
+:root{
+    --color-background: white;
+    --color-primary: gray;
+    --color-hover: #e7e7e7;
+    --color-contrast: #000000;
+    --color-link: dodgerblue;
+}
+
+@font-face {
+    font-family: "Typewriter";
+    src: url("../fonts/MonospaceTypewriter.ttf") format("ttf"),
+    url("../fonts/monospacetypewriter-webfont.woff") format("woff"),
+    url("../fonts/monospacetypewriter-webfont.woff2") format("woff2");
+}
