@@ -12,3 +12,67 @@
     url("../fonts/monospacetypewriter-webfont.woff") format("woff"),
     url("../fonts/monospacetypewriter-webfont.woff2") format("woff2");
 }
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*, body, html{
+    font-family: "Typewriter", Helvetica, Arial, sans-serif;
+}
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-contrast);
+}
+
+button{
+    border: 1.5px solid var(--color-primary);
+    background-color: var(--color-background);
+    color: var(--color-contrast);
+    padding: 2px;
+    border-radius: 4px;
+
+    transition: background-color 500ms, filter 500ms;
+}
+
+button:hover:not(:disabled){
+    background-color: var(--color-hover);
+}
+
+button:active:not(:disabled){
+    filter: brightness(1.75);
+}
+
+button:disabled{
+    filter: opacity(0.4);
+}
+
+a, a:visited{
+    color: var(--color-link);
+}
+
+h2{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+span.big{
+    font-size: 150%;
+}
+
+main{
+    padding-bottom: 5vh;
+}
+
+main p{
+    text-align: center;
+}
+
+textarea{
+    background-color: var(--color-background);
+    border: 1px solid var(--color-primary);
+    color: var(--color-contrast);
+}
